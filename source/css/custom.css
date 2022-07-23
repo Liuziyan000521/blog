@@ -147,3 +147,31 @@ hr:before {
 #article-container h6:hover {
     padding-left: 1.2rem
 }
+
+/*
+圆角修改
+*/
+/* 侧栏最新文章板块图片圆角 与 各种圆角 */
+#aside-content.aside-content .aside-list-item .thumbnail img {
+    border-radius: 15%;
+}
+
+div#local-search div.search-dialog {
+    border-radius: 25px;
+}
+
+div#post nav#pagination div.prev-post img.prev-cover {
+    border-radius: 25px;
+}
+
+div#post div.relatedPosts div.relatedPosts-list img.cover {
+    border-radius: 25px;
+}
+
+.relatedPosts > .relatedPosts-list > div {
+    border-radius: 25px;
+}
+
+#pagination.pagination-post {
+    border-radius: 25px;
+}

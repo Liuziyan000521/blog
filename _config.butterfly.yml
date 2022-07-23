@@ -232,7 +232,7 @@ post_pagination: 1
 noticeOutdate:
   enable: true
   style: flat # style: simple/flat
-  limit_day: 120 # When will it be shown
+  limit_day: 365 # When will it be shown
   position: top # position: top/bottom
   message_prev: 该文件创建于
   message_next: 天前，请以最新文章为准，如没更新请联系.
@@ -504,7 +504,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://s2.loli.net/2022/07/22/au5YSjKP3I4D2ke.jpg)
+background: url(https://s1.ax1x.com/2022/07/23/jXZmIs.jpg)
 
 # Footer Background
 footer_bg: false
@@ -852,6 +852,8 @@ inject:
   # 放js
   bottom:
     - <div class="aplayer no-destroy" data-id="2829883282" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.3"> </div>
+    - <script async src="/js/grayscale.js"></script>
+    - <script async src="/js/diytitle.js"></script>
   # - <script src="xxxx"></script>
 
 # CDN
