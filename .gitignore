@@ -14,3 +14,6 @@ _multiconfig.yml
 themes/butterfly/.git
 themes/landscape
 themes/.gitkeep
+package-lock.json
+yarn.lock
+*.lock.*
