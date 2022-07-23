@@ -156,3 +156,10 @@ nofollow:
   filed: site
   exclude: ''
 
+# 图片懒加载
+lazyload:
+  enable: true
+  onlypost: false # optional
+  loadingImg: 'https://graphicbed.oss-cn-shanghai.aliyuncs.com/myBlog/loading.gif'
+  isSPA: true # optional
+
