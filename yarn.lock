@@ -1261,6 +1261,13 @@
     "mv" "~2"
     "safe-json-stringify" "~1"
 
+"hexo-butterfly-wowjs@^1.0.5":
+  "integrity" "sha512-bC3P5dHr3DyclXt9yvWqzDvmrRjBE6h66A7WkVsB00MaOZUHVKZbD18r4WuH5RQtHdJlTnZf/ADyYBHFTEVEqw=="
+  "resolved" "https://registry.npmmirror.com/hexo-butterfly-wowjs/-/hexo-butterfly-wowjs-1.0.5.tgz"
+  "version" "1.0.5"
+  dependencies:
+    "pug" "^3.0.0"
+
 "hexo-cli@^2.0.0":
   "integrity" "sha512-ZHWh2W35IHaAv9vmcrq+yWjubF26TV+qXoihMnJ3LojWlUCFoMWfEoxJcm0AL709SSuVMpwvUI8la4CpQCOGXQ=="
   "resolved" "https://registry.npmmirror.com/hexo-cli/-/hexo-cli-2.0.0.tgz"
@@ -1412,6 +1419,11 @@
   "resolved" "https://registry.npmmirror.com/hexo-githubcalendar/-/hexo-githubcalendar-1.2.3.tgz"
   "version" "1.2.3"
 
+"hexo-history-calendar@^1.0.3":
+  "integrity" "sha512-XFSqUbOUEE8bwk8wmj0uyk3NIo5cI24YTBZaJDX7phvcANDFXuKWAHqqS4HlByAqeZiaDahS90pCdfjcNWPlYw=="
+  "resolved" "https://registry.npmmirror.com/hexo-history-calendar/-/hexo-history-calendar-1.0.3.tgz"
+  "version" "1.0.3"
+
 "hexo-i18n@^0.2.1":
   "integrity" "sha512-QhVmN/eLohu9UzvrX85zhfL7yN5O4MOkXKYmCRI8GPcg0EczX+blYYmMCugZKu/NIJ9XD5/etAVWCi/5F+fS6g=="
   "resolved" "https://registry.npmmirror.com/hexo-i18n/-/hexo-i18n-0.2.1.tgz"
@@ -1425,6 +1437,13 @@
   "version" "1.0.0"
   dependencies:
     "sprintf-js" "^1.0.3"
+
+"hexo-lazyload-image@^1.0.10":
+  "integrity" "sha512-sbmO1b4GOEK2zshHAlPfPC9ZCpcAZ7E9PEeZkgDyHKoVjUwSQy6noQfejYiC48j9TV3/Bvyscx4ESol8PXVBEQ=="
+  "resolved" "https://registry.npmmirror.com/hexo-lazyload-image/-/hexo-lazyload-image-1.0.10.tgz"
+  "version" "1.0.10"
+  dependencies:
+    "uglify-js" "^3.0.27"
 
 "hexo-log@^0.2.0":
   "integrity" "sha512-fzoc+GQexxPPILTjoOQILnA3ZG2MFgqMBVel4xvJ11pXptw9+f97ynTgDAExXafyp9Nz2ChXRuqlCYgPtZSlxQ=="
@@ -1504,11 +1523,6 @@
   dependencies:
     "hexo-renderer-pug" "^3.0.0"
     "hexo-renderer-stylus" "^2.1.0"
-
-"hexo-theme-landscape@^0.0.3":
-  "integrity" "sha512-b0Di+TUVs4ESrNX4ULEh9uQmADpO6kr10rIJ2OGZM8suNQNFKdxn+vJUjnLfKkCPJAfVmS7/S83KCNYe4tpoNw=="
-  "resolved" "https://registry.npmmirror.com/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz"
-  "version" "0.0.3"
 
 "hexo-util@^0.6.3":
   "integrity" "sha512-zPxaqCWZz3/25SAB4FlrRtWktJ+Pr+vBiv/nyHpXKgXPt1m70liViKlRwWLqDmRjJ72x6/k4qCEeXHajvcGHUw=="
@@ -2702,7 +2716,7 @@
   "resolved" "https://registry.npmmirror.com/pug-walk/-/pug-walk-2.0.0.tgz"
   "version" "2.0.0"
 
-"pug@^3.0.2":
+"pug@^3.0.0", "pug@^3.0.2":
   "integrity" "sha512-bp0I/hiK1D1vChHh6EfDxtndHji55XP/ZJKwsRqrz6lRia6ZC2OZbdAymlxdVFwd1L70ebrVJw4/eZ79skrIaw=="
   "resolved" "https://registry.npmmirror.com/pug/-/pug-3.0.2.tgz"
   "version" "3.0.2"
@@ -3258,6 +3272,11 @@
   "version" "0.3.2"
   dependencies:
     "prelude-ls" "~1.1.2"
+
+"uglify-js@^3.0.27":
+  "integrity" "sha512-AaQNokTNgExWrkEYA24BTNMSjyqEXPSfhqoS0AxmHkCJ4U+Dyy5AvbGV/sqxuxficEfGGoX3zWw9R7QpLFfEsg=="
+  "resolved" "https://registry.npmmirror.com/uglify-js/-/uglify-js-3.16.2.tgz"
+  "version" "3.16.2"
 
 "uglify-js@2.6.0":
   "integrity" "sha512-SYZzhZQRrlAc6QT3Eqz4WHuyrCLjvvKmfII/of82rVACMxsIwb/CqlZVbUwOIq8Xd1EMp2WTtCrIxFYF+779zw=="
